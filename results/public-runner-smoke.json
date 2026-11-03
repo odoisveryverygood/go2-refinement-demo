@@ -1,0 +1,88 @@
+{
+  "as_of_utc": "2026-11-03T02:24:16.485920+00:00",
+  "scope": "New self-contained cloud-VLM demo engineering smoke, not research evaluation",
+  "live_runs": [
+    {
+      "summary": {
+        "model": "gpt-4.1-2025-04-14",
+        "submitted_calls": 1,
+        "completed_responses": 1,
+        "simulation_seconds": 7.995999999999452,
+        "api_disabled": false,
+        "failure_type": null,
+        "scope": "new public model-controlled demo; not historical experiment reproduction"
+      },
+      "responses": [
+        {
+          "direction": "left",
+          "reason": "The blue box is positioned to the left side of the image, so turning left will help face it directly.",
+          "model": "gpt-4.1-2025-04-14",
+          "usage": {
+            "prompt_tokens": 161,
+            "completion_tokens": 30,
+            "total_tokens": 191,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "latency_s": 1.8138852089978172
+        }
+      ]
+    },
+    {
+      "summary": {
+        "model": "gpt-4.1-2025-04-14",
+        "submitted_calls": 1,
+        "completed_responses": 1,
+        "simulation_seconds": 7.995999999999452,
+        "initial_base_xyz": [
+          -0.0043923819439005566,
+          0.0021315312224104853,
+          0.2763360604033347
+        ],
+        "final_base_xyz": [
+          -0.09824820953030444,
+          0.053412636218308836,
+          0.27905858130145955
+        ],
+        "model_motion_physics_steps": 1609,
+        "api_disabled": false,
+        "failure_type": null,
+        "scope": "new public model-controlled demo; not historical experiment reproduction"
+      },
+      "responses": [
+        {
+          "direction": "left",
+          "reason": "The blue box is positioned to the left side of the image, so turning left will better align the robot dog with the box.",
+          "model": "gpt-4.1-2025-04-14",
+          "usage": {
+            "prompt_tokens": 161,
+            "completion_tokens": 34,
+            "total_tokens": 195,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "latency_s": 1.3627339169979678
+        }
+      ]
+    }
+  ],
+  "api_requests": 2,
+  "original_runner_check": "Imports and private-source function binding verified; full rerun blocked by less than 8 GiB free disk",
+  "fresh_environment_install": "Not performed; tested with existing Python 3.12 simulation environment"
+}

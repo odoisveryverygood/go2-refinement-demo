@@ -203,5 +203,5 @@
     "background archive activity precludes a controlled hardware latency claim",
     "one latest v3 development run per method; prompt/model selection used development feedback"
   ],
-  "release_note": "Saved development results only. Private lab decision code is excluded. Public live demo uses independent tracking logic; it does not reproduce these model runs."
+  "release_note": "Saved development results. Original experimental runner now included, requiring externally supplied private lab source, weights and API credentials. New self-contained cloud-VLM and tracker demos are separate illustrations."
 }
